@@ -46,7 +46,7 @@ TIM_HandleTypeDef htim2;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-float Kp = 0;
+float Kp = 0.1;
 float Ki = 0;
 float Kd =0;
 
@@ -55,7 +55,7 @@ float s = 0;
 float p = 0;
 float u = 0;
 
-float setpoint = 100;
+float setpoint = 200;
 float t = 0;
 
 float QEIRawData = 0;
